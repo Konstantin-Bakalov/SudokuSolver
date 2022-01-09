@@ -69,7 +69,6 @@ public class Frame extends JFrame {
         PuzzleGenerator generator = new PuzzleGenerator();
         Random r = new Random();
         int next = r.nextInt(5);
-        System.out.println(next);
         board = generator.getBoardByIndex(next);
     }
 
